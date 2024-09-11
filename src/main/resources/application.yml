@@ -1,0 +1,12 @@
+server:
+  port: 80
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: ${GOOGLE_CI}
+            clientSecret: ${GOOGLE_CS}
+
